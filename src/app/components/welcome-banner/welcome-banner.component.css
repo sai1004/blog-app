@@ -5,6 +5,30 @@
     color: white;
 
 }
+.btn{
+    background-color:  #82acc6;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+   
+}
+p{
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.banner-content{
+    margin-left: 80px;
+}
+
+
+
+/* .btn-brd{
+    border-bottom: 2.5em solid  #82acc6;
+    border-top: 2.5em solid  #82acc6;
+} */
+
 /* .banner h1,h3{
     color: white;
 } */

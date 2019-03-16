@@ -1,0 +1,27 @@
+.align{
+
+    margin: 20px;
+    
+}
+.content{
+    padding: 80px;
+
+}
+
+.btn{
+    background-color:  #82acc6;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+   
+}
+p{
+    line-height: 18px;
+    font-size: 15px;
+}
+
+
+.cont1, .cont3{
+    margin: 10px;
+}

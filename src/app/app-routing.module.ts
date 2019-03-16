@@ -9,7 +9,7 @@ const routes: Routes = [
     path: "welcome",
     loadChildren: "./modules/welcome/welcome.module#WelcomeModule",
   },
-
+  
 
 ];
 
