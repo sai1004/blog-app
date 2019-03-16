@@ -9,8 +9,10 @@
     background-color:  #82acc6;
     border: none;
     text-align: center;
-    height: 50px;
-    width: 100px;
+    /* height: 50px;
+    width: 100px; */
+    border-radius: 20px;
+    margin-right: 10px;
    
 }
 p{

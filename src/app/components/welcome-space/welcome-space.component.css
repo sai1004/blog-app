@@ -1,0 +1,22 @@
+.btn{
+    background-color:  #82acc6;
+    border: none;
+    text-align: center;
+    /* height: 50px;
+    width: 100px; */
+    border-radius: 20px;
+   
+}
+p{
+    margin: 6px;
+    line-height: 20px;
+
+}
+img{
+    margin: 3px;
+}
+.pd{
+    padding: 15px;
+    background-color: whitesmoke;
+
+}

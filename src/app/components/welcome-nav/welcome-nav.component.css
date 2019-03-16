@@ -34,3 +34,9 @@
     font-weight: bolder
     
  }
+
+ a:hover{
+     background-color:  #82acc6;
+     cursor: pointer;
+
+ }

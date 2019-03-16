@@ -19,8 +19,8 @@ h2{
 }
 
 .btn{
-    height: 90px;
-    width: 150px;
+    height: 40px;
+    width: 100px;
     background-color: #82acc6;
     border: none;
     margin-top: 40px;
@@ -30,9 +30,23 @@ h2{
 
     content: '';
     top: 0;
-    /* right: -0.9em; */
-    border-left: solid 1.5em  #82acc6;
+    /* border-left: solid 1.5em  #82acc6;
     border-top: solid 3em transparent;
-    border-bottom: solid 3em transparent;
+    border-bottom: solid 3em transparent; */
 
+}
+p{
+    line-height: 20px;
+ 
+}
+.ft-btn{
+    text-align: center;
+    border: solid 1px gray;
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 45%;
+    margin-top: 50px;
 }

@@ -9,6 +9,7 @@ import { WelcomeNavComponent } from '../../components/welcome-nav/welcome-nav.co
 import { WelcomeFootComponent } from '../../components/welcome-foot/welcome-foot.component';
 import { WelcomeContentComponent } from '../../components/welcome-content/welcome-content.component';
 import { WelcomeRecentComponent } from '../../components/welcome-recent/welcome-recent.component';
+import { WelcomeSpaceComponent } from '../../components/welcome-space/welcome-space.component';
 
 // import { WelcomeService } from "./welcome.service";
 
@@ -23,7 +24,7 @@ const routes: Routes = [
   imports: [CommonModule, SharedModule,   RouterModule.forChild(routes)
 
 ],
-  declarations: [ WelcomeNavComponent, WelcomeBannerComponent,WelcomeFootComponent,WelcomeContentComponent,WelcomeRecentComponent, welcomePageContainer
+  declarations: [ WelcomeNavComponent, WelcomeBannerComponent,WelcomeFootComponent,WelcomeContentComponent,WelcomeSpaceComponent,WelcomeRecentComponent, welcomePageContainer
 ],
   providers: [ ]
 })
