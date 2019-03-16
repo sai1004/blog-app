@@ -16,12 +16,33 @@
     width: 100px;
    
 }
+
+.cont1,.cont2, .cont3{
+    margin-right: 16px;
+}
+ 
+ 
 p{
     line-height: 18px;
     font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* padding-top: 30px; */
 }
 
-
-.cont1, .cont3{
-    margin: 10px;
+h3{
+    line-height: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin: 5px;
 }
+h4{
+    line-height: 18px;
+    font-weight: 100;
+    font-size: 20px;
+    color: gray
+}
+
+h1{
+    color: gray
+}
+
