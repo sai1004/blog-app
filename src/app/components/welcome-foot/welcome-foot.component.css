@@ -50,3 +50,6 @@ p{
     margin-left: 45%;
     margin-top: 50px;
 }
+.row3 img {
+    cursor: pointer;
+}

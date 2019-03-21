@@ -12,13 +12,12 @@
     background-color:  #82acc6;
     border: none;
     text-align: center;
-    /* height: 50px;
-    width: 100px; */
+ 
    
 }
 
-.cont1,.cont2, .cont3{
-    margin-right: 16px;
+.cont{
+   padding: 16px;
 }
  
  

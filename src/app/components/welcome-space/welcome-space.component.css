@@ -12,11 +12,20 @@ p{
     line-height: 20px;
 
 }
-img{
+/* img{
     margin: 3px;
-}
+} */
 .pd{
     padding: 15px;
     background-color: whitesmoke;
 
+}
+
+.pd h3{
+    padding:4px;
+    margin: 3px
+}
+.all-cont{
+
+    margin: 20px;
 }

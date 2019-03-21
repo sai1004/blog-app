@@ -18,12 +18,12 @@
 p{
     line-height: 18px;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Round
 
 }
 h1{
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Round, sans-serif
 
 
 }
@@ -33,16 +33,30 @@ h3{
 
 }
 .banner-content{
-    margin-left: 80px;
+    margin: 80px;
 }
 
 
 
-/* .btn-brd{
-    border-bottom: 2.5em solid  #82acc6;
-    border-top: 2.5em solid  #82acc6;
-} */
+@media only screen and (max-width: 600px) {
+    .mid-frame {
+      height: 120px;
+      width: 230px;
 
-/* .banner h1,h3{
-    color: white;
-} */
+    }
+    .screen{
+        height: 100px;
+        width: 180px;
+        margin-top: 5px
+    }
+    .bck-frame{
+        height: 80px;
+        width: 145px;
+    }
+    .banner-content{
+        margin: auto;
+        /* margin-right: 40px; */
+    }
+     
+  }
+  
