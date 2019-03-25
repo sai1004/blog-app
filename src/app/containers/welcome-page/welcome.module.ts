@@ -7,6 +7,10 @@ import { WelcomeBannerComponent } from '../../components/welcome-banner/welcome-
 import { welcomePageContainer } from './welcome-page.container';
 import { WelcomeNavComponent } from '../../components/welcome-nav/welcome-nav.component';
 import { WelcomeFootComponent } from '../../components/welcome-foot/welcome-foot.component';
+import { WelcomeContentComponent } from '../../components/welcome-content/welcome-content.component';
+import { WelcomeRecentComponent } from '../../components/welcome-recent/welcome-recent.component';
+import { WelcomeSpaceComponent } from '../../components/welcome-space/welcome-space.component';
+import { CusFeedBackComponent } from '../../components/cus-feed-back/cus-feed-back.component';
 
 // import { WelcomeService } from "./welcome.service";
 
@@ -21,7 +25,7 @@ const routes: Routes = [
   imports: [CommonModule, SharedModule,   RouterModule.forChild(routes)
 
 ],
-  declarations: [ WelcomeNavComponent, WelcomeBannerComponent,WelcomeFootComponent, welcomePageContainer
+  declarations: [ WelcomeNavComponent, WelcomeBannerComponent,WelcomeFootComponent,WelcomeContentComponent,WelcomeSpaceComponent,WelcomeRecentComponent, welcomePageContainer, CusFeedBackComponent
 ],
   providers: [ ]
 })

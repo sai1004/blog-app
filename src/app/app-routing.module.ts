@@ -9,10 +9,11 @@ const routes: Routes = [
     path: "welcome",
     loadChildren: "./modules/welcome/welcome.module#WelcomeModule",
   },
-
+  
 
 ];
- 
+
+
 @NgModule({
   imports: [RouterModule.forRoot(routes), WelcomeModule],
   exports: [RouterModule]
