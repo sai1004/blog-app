@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: "", pathMatch: "full", redirectTo: "auth/signin" },
   {
     path: "welcome",
-    loadChildren: "./modules/welcome/welcome.module#WelcomeModule",
+    loadChildren: "./containers/welcome-page/welcome.module#WelcomeModule",
   },
   
 
